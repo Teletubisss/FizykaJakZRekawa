@@ -68,14 +68,15 @@ li {
 
 /* kolor linków */
 a {
+  text-decoration: none;
+  color: #313030;
+}.underline {
   text-decoration-line: underline;
   color: #313030;
 }
-
-#quote2 {
-  background-size: 50%;
+a:hover {
+  color: #000000;
 }
-
 
 footer {
   font-size: 15px;
@@ -160,10 +161,9 @@ footer {
 
 
 /* cytaty */
-.QuoteWidth {
- height: 20vh;
- _padding: 30px;
- place-items: center;
+.quote {
+ height: 60vh;
+ padding: 60px;
 }
 
 .LeftJust {
