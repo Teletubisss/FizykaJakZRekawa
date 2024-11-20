@@ -1,0 +1,174 @@
+
+body {
+  scroll-behavior: smooth;
+  background-color: #1b1b1b;
+  font-family: "Catamaran", sans-serif;
+  color: #313030;
+  font-size: 25px;
+}
+
+/* czarne sekcje */
+.dark {
+  background-color: #1b1b1b;
+  color: #EDFFFF; 
+}
+/* białe sekcje */
+.Light {
+  padding: 50px;
+  background-color: #EDFFFF;
+}
+
+/* boxy za tersktami */
+nav {
+  background-color: #EDFFFF;
+  padding: 20px;
+}
+
+.header-container-text {
+  margin-top: 100px;
+  background-color: #EDFFFF;
+  padding: 100px;
+}
+
+/* header zdjecie*/
+#main {
+  background-image: url("../images/image.png");
+  height: 100vh;
+  background-position: bottom;
+  background-size: cover;
+}
+
+/* kolor większych tekstów */
+h2, h3 {
+  color: #000000;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* wyzerowanie kropek */
+li {
+  list-style-type: none;
+}
+
+/* kolor linków */
+a {
+  text-decoration:none;
+  color: #313030;
+}
+
+#quote2 {
+  background-image: url("../images/guote2.jpg");
+  background-size: 50%;
+}
+#quote3{
+  background-image: url("../images/quote1-fotor-20241120172036.jpg");
+
+}
+
+footer {
+  font-size: 15px;
+}
+
+#slaids {
+  
+  padding-bottom: 300px;
+}
+
+#contact {
+  text-align: center;
+  height: 80vh;
+}
+
+.fullVerticalSize {
+  height: 100vh;
+  position: relative;
+}
+
+.fullVerticaCenter {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* interlinia */
+.textInt {
+  line-height: 50px;
+}
+
+
+/* padding */
+.padding50 {
+  padding: 50px;
+}
+.padding20 {
+  padding-top: 20px;
+}
+
+/* wyjustowanie tekstu */
+.textJust {
+  text-align: justify;
+  padding-top: 60px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+
+/* tekst na srodku */
+.textCenter {
+  text-align: center;
+}
+
+
+
+
+/* grid layout */
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+.grid-container-3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-container-7 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.grid-item {
+  padding: 10px;
+  text-align: center;
+}
+
+.img-grid-2 {
+  width: 100%;
+}
+/* END grid layout */
+
+
+/* cytaty */
+.QuoteWidth {
+ height: 50vh;
+ padding: 30px;
+ place-items: center;
+}
+
+.LeftJust {
+  text-align: left;
+}
+
+.RightJust {
+  text-align: right;
+}
+
+.padding-0 {
+  padding: 0;
+}
