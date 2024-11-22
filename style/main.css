@@ -32,22 +32,23 @@ body {
   background-color: #f7e4d8;
 }
 
-/* boxy za tersktami */
+/* boxy za tekstami */
 nav {
   background-color: #EDFFFF;
   padding: 20px;
 }
 
 .header-container-text {
-  margin-top: 100px;
+  margin-top: 200px;
   background-color: #f7e4d8;
   padding: 100px;
 }
 
 /* header zdjecie*/
-#main {
-  height: 80vh;
+#main, #organisation {
+  height: 90vh;
 }
+
 
 /* kolor większych tekstów */
 h2, h3 {
@@ -70,12 +71,15 @@ li {
 a {
   text-decoration: none;
   color: #313030;
-}.underline {
-  text-decoration-line: underline;
-  color: #313030;
 }
 a:hover {
   color: #000000;
+}
+.underline:hover {
+  text-decoration: underline;
+}
+.bigger:hover {
+  font-size: 21px;
 }
 
 footer {
@@ -88,7 +92,7 @@ footer {
 }
 
 .fullVerticalSize {
-  height: 82vh;
+  height: 84vh;
   position: relative;
 }
 
@@ -150,7 +154,7 @@ footer {
 }
 
 .grid-item {
-  padding: 10px;
+  padding: 60px;
   text-align: center;
 }
 
@@ -162,7 +166,7 @@ footer {
 
 /* cytaty */
 .quote {
- height: 60vh;
+ height: 65vh;
  padding: 60px;
 }
 
