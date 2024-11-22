@@ -181,3 +181,11 @@ footer {
 .padding-0 {
   padding: 0;
 }
+
+
+.border {
+  border: 4px solid #313030;
+}
+.border1 {
+  border: 1px solid #313030;
+}
