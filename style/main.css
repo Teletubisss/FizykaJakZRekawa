@@ -156,6 +156,7 @@ footer {
 .grid-item {
   padding: 60px;
   text-align: center;
+  align-self: center;
 }
 
 .img-grid-2 {
