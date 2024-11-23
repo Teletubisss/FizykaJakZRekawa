@@ -6,8 +6,6 @@ body {
   background-image: url("../images/background.jpg");
   background-attachment: fixed;
   background-size: 100%;
-  
-
   background-color: #1b1b1b;
   font-family: "Catamaran", sans-serif;
   color: #313030;
@@ -26,6 +24,7 @@ body {
 .dark {
   color: #EDFFFF; 
 }
+
 /* białe sekcje */
 .Light {
   padding: 50px;
@@ -49,15 +48,16 @@ nav {
   height: 90vh;
 }
 
-
 /* kolor większych tekstów */
 h2, h3 {
   color: #000000;
 }
+
 #headline {
   font-weight: bold;
   color: #000000;
 }
+
 .bold {
   font-weight: bold;
 }
@@ -72,12 +72,15 @@ a {
   text-decoration: none;
   color: #313030;
 }
+
 a:hover {
   color: #000000;
 }
+
 .underline:hover {
   text-decoration: underline;
 }
+
 .bigger:hover {
   font-size: 21px;
 }
@@ -109,11 +112,11 @@ footer {
   line-height: 50px;
 }
 
-
 /* padding */
 .padding50 {
   padding: 50px;
 }
+
 .padding20 {
   padding-top: 20px;
 }
@@ -126,14 +129,10 @@ footer {
   padding-right: 100px;
 }
 
-
 /* tekst na srodku */
 .textCenter {
   text-align: center;
 }
-
-
-
 
 /* grid layout */
 .grid-container-2 {
@@ -164,7 +163,6 @@ footer {
 }
 /* END grid layout */
 
-
 /* cytaty */
 .quote {
  height: 65vh;
@@ -182,7 +180,6 @@ footer {
 .padding-0 {
   padding: 0;
 }
-
 
 .border {
   border: 4px solid #313030;
