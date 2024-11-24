@@ -12,24 +12,27 @@ body {
   font-size: 25px;
 }
 
+
+/* menu na gorze */
 #menu {
   position: fixed;
   width: 100%;
-  height: 80px;
+  height: 100px;
   background-color: #c4b4ab;
   z-index: 100;
 }
 
-/* czarne sekcje */
+
+/* czarne i białe sekcje */
 .dark {
   color: #EDFFFF; 
 }
 
-/* białe sekcje */
 .Light {
   padding: 50px;
   background-color: #f7e4d8;
 }
+
 
 /* boxy za tekstami */
 nav {
@@ -43,14 +46,16 @@ nav {
   padding: 100px;
 }
 
-/* header zdjecie*/
+
+/*sekcje*/
 #main, #organisation {
   height: 90vh;
 }
 
-/* kolor większych tekstów */
-h2, h3 {
-  color: #000000;
+#organisation svg{
+ border: 2px solid #EDFFFF;
+ border-radius: 50%;
+ padding: 25px;
 }
 
 #headline {
@@ -58,6 +63,23 @@ h2, h3 {
   color: #000000;
 }
 
+footer {
+  font-size: 15px;
+}
+
+#contact {
+  text-align: center;
+  height: 70vh;
+}
+
+
+/* kolor większych tekstów */
+h2, h3 {
+  color: #000000;
+}
+
+
+/* bold */
 .bold {
   font-weight: bold;
 }
@@ -73,6 +95,8 @@ a {
   color: #313030;
 }
 
+
+/* narzezdzanie */
 a:hover {
   color: #000000;
 }
@@ -85,15 +109,8 @@ a:hover {
   font-size: 21px;
 }
 
-footer {
-  font-size: 15px;
-}
 
-#contact {
-  text-align: center;
-  height: 70vh;
-}
-
+/* fulle */
 .fullVerticalSize {
   height: 84vh;
   position: relative;
@@ -121,6 +138,11 @@ footer {
   padding-top: 20px;
 }
 
+.padding-0 {
+  padding: 0;
+}
+
+
 /* wyjustowanie tekstu */
 .textJust {
   text-align: justify;
@@ -133,6 +155,7 @@ footer {
 .textCenter {
   text-align: center;
 }
+
 
 /* grid layout */
 .grid-container-2 {
@@ -153,7 +176,6 @@ footer {
 }
 
 .grid-item {
-  padding: 60px;
   text-align: center;
   align-self: center;
 }
@@ -161,14 +183,16 @@ footer {
 .img-grid-2 {
   width: 100%;
 }
-/* END grid layout */
 
-/* cytaty */
+
+/* cytaty ustawienie*/
 .quote {
  height: 65vh;
  padding: 60px;
 }
 
+
+/* dostosowanie lewa prawa */
 .LeftJust {
   text-align: left;
 }
@@ -177,13 +201,32 @@ footer {
   text-align: right;
 }
 
-.padding-0 {
-  padding: 0;
-}
 
+/* bordery */
 .border {
   border: 4px solid #313030;
 }
 .border1 {
-  border: 1px solid #313030;
+  border: 1px solid #1d1c1c;
+}
+
+
+/* rameczka za zdjeciem */
+.aboutImage {
+  position: relative; /* Kontekst dla pseudoelementu */
+}
+.aboutImage:before {
+  content: "";
+  border: 20px solid #313030;
+  position: absolute;
+  bottom: -45px;
+  left: -25px;
+  width: 350px;
+  height: 550px;
+  box-sizing: border-box;
+  z-index: -1; /* Poprawiona wartość */
+}
+
+.slaidsWidth {
+  width: 900px;
 }
