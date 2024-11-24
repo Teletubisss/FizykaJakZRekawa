@@ -9,7 +9,7 @@ body {
   background-color: #1b1b1b;
   font-family: "Catamaran", sans-serif;
   color: #313030;
-  font-size: 23px;
+  font-size: 1.5vw;
 }
 
 
@@ -29,7 +29,7 @@ body {
 }
 
 .Light {
-  padding: 50px;
+  padding: 6vw;
   background-color: #f7e4d8;
 }
 
@@ -37,19 +37,21 @@ body {
 /* boxy za tekstami */
 nav {
   background-color: #EDFFFF;
-  padding: 20px;
+  padding: 2vw;
 }
 
 .header-container-text {
   margin-top: 200px;
   background-color: #f7e4d8;
-  padding: 100px;
+  padding: 7vw;
+  width: 100vw;
 }
 
 
 /*sekcje*/
 #main, #organisation {
   height: 90vh;
+  width: 90vw;
 }
 
 .AboutImg {
@@ -59,7 +61,7 @@ nav {
 #organisation svg{
  border: 2px solid #EDFFFF;
  border-radius: 50%;
- padding: 25px;
+ padding: 2vw;
 }
 
 #headline {
@@ -130,16 +132,16 @@ a:hover {
 
 /* interlinia */
 .textInt {
-  line-height: 50px;
+  line-height: 3vw;
 }
 
 /* padding */
 .padding50 {
-  padding: 50px;
+  padding: 5vw;
 }
 
 .padding20 {
-  padding-top: 20px;
+  padding-top: 2vw;
 }
 
 .padding-0 {
@@ -150,9 +152,9 @@ a:hover {
 /* wyjustowanie tekstu */
 .textJust {
   text-align: justify;
-  padding-top: 60px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-top: 3vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 /* tekst na srodku */
@@ -165,13 +167,13 @@ a:hover {
 .grid-container-2 {
   display: grid;
   grid-template-columns: auto auto;
-  padding: 10px;
+  padding: 3vw;
 }
 
 .grid-container-3 {
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 10px;
+  padding: 1vw;
 }
 
 .grid-container-7 {
@@ -192,7 +194,7 @@ a:hover {
 /* cytaty ustawienie*/
 .quote {
  height: 65vh;
- padding: 60px;
+ padding: 4vw;
 }
 
 
@@ -221,12 +223,12 @@ a:hover {
 }
 .aboutImage:before {
   content: "";
-  border: 20px solid #313030;
+  border: 1.5vw solid #313030;
   position: absolute;
   bottom: -45px;
   left: -25px;
-  width: 350px;
-  height: 550px;
+  width: 55%;
+  height: 125%;
   box-sizing: border-box;
   z-index: -1; /* Poprawiona wartość */
 }
