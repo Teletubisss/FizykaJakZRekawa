@@ -52,6 +52,10 @@ nav {
   height: 90vh;
 }
 
+.AboutImg {
+  width: 35vw;
+}
+
 #organisation svg{
  border: 2px solid #EDFFFF;
  border-radius: 50%;
@@ -106,7 +110,7 @@ a:hover {
 }
 
 .bigger:hover {
-  font-size: 19.5px;
+  font-size: 19.5 px;
 }
 
 
@@ -228,5 +232,5 @@ a:hover {
 }
 
 .slaidsWidth {
-  width: 900px;
+  width: 40vw;
 }
