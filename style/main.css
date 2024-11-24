@@ -9,7 +9,7 @@ body {
   background-color: #1b1b1b;
   font-family: "Catamaran", sans-serif;
   color: #313030;
-  font-size: 25px;
+  font-size: 23px;
 }
 
 
@@ -106,7 +106,7 @@ a:hover {
 }
 
 .bigger:hover {
-  font-size: 21px;
+  font-size: 19.5px;
 }
 
 
